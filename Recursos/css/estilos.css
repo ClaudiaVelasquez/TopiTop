@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/*Fonts*/
+
+@font-face {
+    src: url('../fonts/GOTHAM-BLACK.TTF');
+    font-family:GothamBlack;
+
+} 
+
+@font-face {
+    src: url('../fonts/GOTHAM-BOLD.TTF');
+    font-family:GothamBold;
+
+}
+
+@font-face {
+    src: url('../fonts/GOTHAM-LIGHT.TTF');
+    font-family:Gothamlight;
+
+}
+
+/*Styles*/
+
+#titulo{
+    color: red;
+    -webkit-text-fill-color:white; 
+    -webkit-text-stroke-width:1px; 
+    font-weight:900;
+    font-family: GothamBlack;
+
+}
+
+#subtitulo{
+    font-family:GothamBold;
+}
+
+#parrafo{
+    font-family:Gothamlight;
+}
+
+#personas{
+    width:123%;
+
+    margin-left:-150px;
+
+}
+
+#col2{
+    padding-top:50px; 
+    padding-bottom:20px;
+    margin-left:-40px; 
+    color:white;
+    
+}
+
+#btncomenzar{
+    padding:5px 30px 5px 30px;
+    background-color:#d1b862;
+    border-radius:60px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    font-family:GothamBold;
+
+}
+
+#btncomenzar:hover{
+    padding:5px 30px 5px 30px;
+    background-color:#b59e4b;
+    color:white;
+    border-radius:60px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+
+}
+
+
+.page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+}
+
+#terminos{
+    font-size: 9px;
+    font-family:GothamBold; 
+
+
+
+}
+
+/*Media queries*/
+
+@media screen and (max-width:768px){
+    #col2{
+        background-image: url('../img/serpentina.png');
+        background-color:#85080d;
+        padding-top:15px; 
+        padding-bottom:40px;
+        margin-left:0px;
+
+    }
+    
+    #personas{
+        width:107%;
+        margin-left:-15px;
+
+    }
+    
+}
+
+
+
